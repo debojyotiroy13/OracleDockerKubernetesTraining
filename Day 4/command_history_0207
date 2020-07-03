@@ -1,0 +1,463 @@
+    1  docker-machine ls
+    2  docker-machine ssh default
+    3  exit
+    4  docker-machine ssh default
+    5  docker-machine ls
+    6  docker-machine ip default
+    7  clear
+    8  docker-machine ls
+    9  docker images
+   10  docker-machine env default
+   11  eval $("C:\Program Files\Docker Toolbox\docker-machine.exe" env default)
+   12  docker-machine ls
+   13  docker images | grep ping
+   14  docker run --rm ping:v1
+   15  docker ps 
+   16  docker inspect -f "{{.NetworkSettings.IPAddress}}" TESTOL
+   17  docker inspect -f "{{.NetworkSettings.IPAddress}}" TestOL
+   18  docker run --rm ping:v1 $(docker inspect -f "{{.NetworkSettings.IPAddress}}" TestOL)
+   19  docker run --rm ping:v1 $(docker-machine ip default)
+   20  docker run --rm ping:v1 www.ndtv.com
+   21  docker run --rm ping:v1 hub.docker.com
+   22  docker-machine ip default
+   23  curl 192.168.99.210:8001
+   24  clear
+   25  cd ~
+   26  mkdir tars2406
+   27  cd tars2406
+   28  docker images
+   29  docker save -o revised.tar revisedubuntu:2
+   30  ls -ltr
+   31  docker load < revised.tar 
+   32  pwd
+   33  ls
+   34  docker-machine ls
+   35  docker images
+   36  docker rmi -f revisedubuntu:2
+   37  docker images
+   38  docker load < revised.tar 
+   39  docker images
+   40  docker-machine ls
+   41  Understand the use case of Big Data Manager
+   42  Components of Big data Manager with extraction.
+   43  Understand the context of Sparks.
+   44  How to analyse data using sparks.
+   45  clear
+   46  docker-machine ls
+   47  docker port webserver
+   48  curl 192.168.99.210:8001
+   49  docker run -d --name monitorwebserver --health-cmd="curl 192.168.99.210:8001" --health-retries=3 --health-interval=2s --health-timeout=1s nginx
+   50  docker ps -a | grep monitorwebserver
+   51  docker stop webserver
+   52  docker ps -a | grep monitorwebserver
+   53  docker start webserver
+   54  docker ps -a | grep monitorwebserver
+   55  docker inspect monitorwebserver
+   56  docker inspect -f "{{json .State.Health}" monitorwebserver > a
+   57  docker inspect -f "{{json .State.Health}}" monitorwebserver > a
+   58  notepad a
+   59  pwd
+   60  docker run -d --name monitorrestapi --health-cmd="curl 192.168.99.210:9000/listEmployees" --health-retries=3 --health-interval=2s --health-timeout=1s nginx
+   61  docker ps -a | grep monitorrestapi
+   62  docker ps -a | grep monitorrestapi
+   63  docker ps -a | grep monitorrestapi
+   64  exit
+   65  docker-machine create -d virtualbox master
+   66  docker-machine create -d virtualbox reachable
+   67  docker-machine create -d virtualbox worker1
+   68  docker-machine ls
+   69  docker-machine env master
+   70  eval $("C:\Program Files\Docker Toolbox\docker-machine.exe" env master)
+   71  docker-machine ls
+   72  docker images
+   73  docker ps -a
+   74  docker network ls
+   75  docker-machine ssh master "docker swarm init --advertise-addr 192.168.99.212"
+   76  docker node ls
+   77  docker network ls
+   78  docker inspect ingress
+   79  docker-machine ssh master "docker swarm join-token manager"
+   80  docker-machine ssh master "docker swarm join-token worker"
+   81  docker-machine ssh reachable "docker swarm join --token SWMTKN-1-52xln57lqdjctgh13urtupe5ufa8n1xebczxpaquada561yykh-2ql0zz0xh8ec32l9u25zl2lfp 192.168.99.212:2377"
+   82  docker node ls
+   83  docker-machine ssh worker1 "docker swarm join --token SWMTKN-1-52xln57lqdjctgh13urtupe5ufa8n1xebczxpaquada561yykh-3l5e246odshm24kbcuf3anrjl 192.168.99.212:2377
+   84  "
+   85  docker-machine ssh default "docker swarm join --token SWMTKN-1-52xln57lqdjctgh13urtupe5ufa8n1xebczxpaquada561yykh-3l5e246odshm24kbcuf3anrjl 192.168.99.212:2377
+   86  "
+   87  docker node ls
+   88  docker inspect ingress
+   89  cd ~
+   90  mkdir swarm
+   91  cd swarm
+   92  notepad docker-compose.yml
+   93  docker stack deploy -c docker-compose.yml swarmstack
+   94  docker network ls
+   95  docker stack ps swarmstack
+   96  docker inspect swarmstack_default
+   97  docker ps
+   98  docker stack ps swarmstack
+   99  curl $(docker-machine ip master):8000
+  100  docker service ls
+  101  docker service logs swarmstack_web
+  102  docker-machine ip master
+  103  docker service logs swarmstack_web
+  104  docker-machine ssh default "docker swarm leave --force"
+  105  docker node ls
+  106  docker node ls
+  107  docker node ls
+  108  docker stack ps swarmstack
+  109  docker-machine ssh default "docker swarm join --token SWMTKN-1-52xln57lqdjctgh13urtupe5ufa8n1xebczxpaquada561yykh-2ql0zz0xh8ec32l9u25zl2lfp 192.168.99.212:2377"
+  110  docker node ls
+  111  docker-machine rm master reachable worker1 
+  112  docker-machine ls
+  113  docker-machine stop default
+  114  exit
+  115  minikube status
+  116  kubectl api-resources
+  117  kubectl api-resources | grep crd
+  118  kubectl api-resources | grep ns
+  119  kubectl version
+  120  clear
+  121  kubectl get nodes
+  122  kubectl get nodes -o wide
+  123  kubectl config view
+  124  kubectl describe node minikube
+  125  kubectl get namespaces
+  126  kubectl describe namespace kube-system
+  127  kubectl get all -n kube-system
+  128  kubectl get pods -n kube-system
+  129  kubectl describe pod etcd-minikube
+  130  kubectl describe pod etcd-minikube -n kube-system
+  131  kubectl create ns demo
+  132  kubectl get ns
+  133  kubectl describe ns demo
+  134  kubectl get pods -n demo
+  135  kubectl get pods
+  136  kubectl config set-context --current --namespace demo
+  137  kubectl config view
+  138  kubectl get pods
+  139  clear
+  140  kubectl get pods
+  141  kubectl run apache-pod --image=httpd 
+  142  kubectl get pods -w
+  143  kubectl get pods
+  144  kubectl describe pod apache-pod
+  145  kubectl get events
+  146  kubectl get pods
+  147  kubectl get pods -o wide
+  148  kubectl get services
+  149  kubectl get services -n default
+  150  kubectl get services -n demo
+  151  kubectl get pods
+  152  kubectl expose pod apache-pod --port=80 --type=NodePort
+  153  kubectl get services
+  154  kubectl describe svc apache-pod
+  155  minikube service apache-pod -n demo
+  156  minikube ip
+  157  curl 192.168.99.211:31287
+  158  kubectl run test-alpine-pod --image=alpine -- sleep 3600
+  159  kubectl get pods
+  160  kubectl get svc --all-namespaces
+  161  kubectl delete svc apache-pod
+  162  kubectl expose pod apache-pod --port=1000 --target-port=80 
+  163  kubectl get svc
+  164  minikube service apache-pod -n demo
+  165  kubectl delete pod apache-pod
+  166  kubectl get pods
+  167  kubectl describe svc apache-pod
+  168  clear
+  169  kubectl create deployment apache-deployment --image=httpd
+  170  kubectl get deployments
+  171  kubectl get pods
+  172  kubectl get deployments -o wide
+  173  kubectl get pods -l app=apache-deployment
+  174  kubectl scale deployment apache-deployment --replicas=5 
+  175  kubectl get deployments -o wide
+  176  kubectl get deployments -o wide
+  177  kubectl get deployments -o wide
+  178  kubectl get pods -l app=apache-deployment
+  179  kubectl delete pod apache-deployment-6b676ddd5-2b48b
+  180  kubectl get pods -l app=apache-deployment
+  181  kubectl get events
+  182  kubectl expose deployment apache-deployment --port=80 --target-port=1000 --type=NodePort
+  183  kubectl get svc
+  184  kubectl delete svc apache-deployment
+  185  kubectl expose deployment apache-deployment --port=1000 --target-port=80 --type=NodePort
+  186  kubectl get svc
+  187  kubectl describe svc apache-deployment
+  188  kubectl get pods -l app=apache-deployment -o wide
+  189  minikube service apache-deployment -n demo
+  190  minikube docker-env
+  191  eval $(minikube -p minikube docker-env)
+  192  docker images
+  193  mkdir deployments
+  194  cd deployments
+  195  notepad database.sql
+  196  notepad insertsql.sql
+  197  notepad database.sql
+  198  notepad Dockerfilesql
+  199  docker build -t newmysql:1 -f Dockerfilesql.txt .
+  200  docker build -t newmysql:1 -f Dockerfilesql.txt .docker build -t newmysql:1 -f Dockerfilesql.txt .
+  201  docker images | grep newmysql
+  202  docker images | grep node
+  203  kubectl create deployment mysql --image=newmysql:1
+  204  kubectl get deploy
+  205  kubectl get pods 
+  206  kubectl logs mysql-78f8fbc4d4-hdj56
+  207  kubectl get deployments
+  208  kubectl expose deployment mysql --port=3306 
+  209  kubectl get svc
+  210  kubectl describe svc mysql
+  211  kubectl get pods
+  212  kubectl scale deployment mysql --replicas=3
+  213  kubectl describe svc mysql
+  214  notepad nodedb.js
+  215  notepad Dockerfilenode
+  216  docker build -t newnode:1 -f Dockerfilenode.txt .
+  217  docker inspect newnode:1
+  218  kubectl create deployment node --image=newnode:1
+  219  kubectl get deployments
+  220  kubectl expose deployment node --port=9000 --type=NodePort
+  221  kubectl describe svc node
+  222  kubectl scale deployment node --replicas=2
+  223  kubectl describe svc node
+  224  minikube service node -n demo
+  225  clear
+  226  minikube addons list
+  227  minikube addons enable ingress
+  228  kubectl get pods -n kube-system
+  229  kubectl get pods -n kube-system
+  230  kubectl logs nginx-ingress-controller-6d57c87cb9-565qk -n kube-system
+  231  clear
+  232  kubectl run test-pod --image=httpd --dry-run=client -o yaml
+  233  kubectl api-resources | grep pod
+  234  kubectl run test-pod --image=httpd --port=80 -l app=s1 --dry-run=client -o yaml
+  235  notepad pod
+  236  ls
+  237  kubectl create -f pod.txt
+  238  kubectl get pods
+  239  kubectl get svc
+  240  kubectl describe svc apple-service
+  241  minikube service apple-service -n demo
+  242  kubectl api-resources | grep ing
+  243  notepad ing
+  244  kubectl create -f ing.txt 
+  245  kubectl logs nginx-ingress-controller-6d57c87cb9-565qk -n kube-system
+  246  minikube ip
+  247  curl -kL http://192.168.99.211/apple
+  248  curl -IkL http://192.168.99.211/apple
+  249  kubectl logs nginx-ingress-controller-6d57c87cb9-565qk -n kube-system
+  250  notepad twocontainers
+  251  kubectl create -f twocontainers.txt 
+  252  kubectl get pods
+  253  kubectl get pods
+  254  kubectl get pods
+  255  kubectl describe pod two-containers
+  256  history > commands_2606
+  257  minikube stop
+  258  minikube delete
+  259  docker-machine ls
+  260  docker-machine ssh default
+  261  clear
+  262  docker-machine ls
+  263  docker-machine ip default
+  264  curl 192.168.99.215:7000
+  265  curl 192.168.99.215:7001/listUsers
+  266  curl 192.168.99.215:7001/listUsers
+  267  docker run -d --name monitornodejs --health-cmd="curl 192.168.99.215:7001/listUsers" --health-retries=5  --health-timeout=1s --health-interval=2s nginx
+  268  docker ps -a | grep monitornodejs
+  269  docker ps -a
+  270  docker stop testnode
+  271  docker ps -a
+  272  docker ps -a
+  273  docker ps -a
+  274  docker start testnode
+  275  docker ps -a
+  276  docker inspect monitornodejs
+  277  docker inspect -f "{{json .State.Health}}" monitornodejs
+  278  docker inspect -f "{{.State.Health}}" monitornodejs
+  279  cd ~
+  280  pwd
+  281  docker images
+  282  docker save -o newubuntu.tar newubuntu:latest
+  283  ls -ltr
+  284  ls new*.tar -ltr
+  285  mkdir tars3006
+  286  cp newubuntu.tar tars3006
+  287  exit
+  288  exit
+  289  kubectl api-resources | grep node
+  290  kubectl api-resources | grep ingress
+  291  kubectl api-resources | grep deploy
+  292  kubectl cluster-info
+  293  clear
+  294  kubectl get nodes
+  295  kubectl get nodes -o wide
+  296  kubectl get namespaces
+  297  minikube version
+  298  kubectl describe node minikube
+  299  kubectl get nodes -o wide
+  300  kubect describe ns kube-system
+  301  kubectl describe ns kube-system
+  302  kubectl describe ns default
+  303  kubectl describe ns
+  304  kubectl api-resources | grep quota
+  305  kubectl api-resources | grep roles
+  306  kubectl get clusterroles -n kube-system
+  307  kubectl describe clusterrole edit -n kube-system
+  308  clear
+  309  kubectl get pods
+  310  kubectl get pods -n kubernetes-dashboard
+  311  kubectl get pods -n kube-system
+  312  kubectl get pods --all-namespaces
+  313  kubectl get pods --all-namespaces -o wide
+  314  kubectl describe pod etcd-minikube
+  315  kubectl describe pod etcd-minikube -n kube-system
+  316  clear
+  317  kubectl create ns demo
+  318  kubectl get ns
+  319  kubectl get pods -n demo
+  320  kubectl get pods
+  321  kubectl config view
+  322  kubectl config set-context --current --namespace demo
+  323  kubectl get pods
+  324  kubectl config view
+  325  kubectl get pods -n default
+  326  clear
+  327  kubectl run apache-pod --image=httpd
+  328  kubectl get pods
+  329  kubectl get pods -o wide
+  330  kubectl get events 
+  331  kubectl describe pod apache-pod
+  332  kubectl exec apache-pod env
+  333  kubectl get services -n kube-system
+  334  kubectl get pods -n kube-system -o wide
+  335  kubectl get pods
+  336  kubectl get nodes
+  337  kubectl get services all --all-namespaces
+  338  kubectl get services --all-namespaces
+  339  kubectl describe service kubernetes -n default
+  340  kubectl describe service kube-dns -n kube-system
+  341  kubectl get pods
+  342  kubectl expose pod apache-pod --port=80 --type=NodePort
+  343  kubectl get svc
+  344  kubectl get pods -o wide
+  345  kubectl describe svc apache-pod
+  346  minikube ip
+  347  curl 192.168.99.217:31408
+  348  minikube service apache-pod -n demo
+  349  kubectl get svc
+  350  clear
+  351  kubectl run test-pod --image=alpine -- sleep 3600
+  352  kubectl get pods
+  353  kubectl get services --all-namespaces
+  354  kubectl run test-pod-check --image=alpine 
+  355  kubectl get pods -w
+  356  kubectl describe pod test-pod-check
+  357  kubectl get pods
+  358  kubectl get pods
+  359  minikube service apache-pod -n demo
+  360  kubectl get svc 
+  361  kubectl delete svc apache-pod
+  362  kubectl get pods
+  363  kubectl expose pod apache-pod --port=1000 --target-port=80 --type=NodePort
+  364  kubectl get svc
+  365  minikube service apache-pod -n demo
+  366  kubectl describe svc apache-pod
+  367  kubectl delete svc apache-pod
+  368  kubectl expose pod apache-pod --port=1000 --target-port=80 --type=ClusterIP
+  369  kubectl get svc
+  370  kubectl describe svc apache-pod
+  371  minikube service apache-pod -n demo
+  372  kubectl run --generator=run-pod/v1 test-pod1 --image=httpd
+  373  kubectl delete pod test-pod1
+  374  curl http://150.136.30.151/
+  375  curl -I http://150.136.30.151/
+  376  kubectl get pods
+  377  kubectl delete pod apache-pod
+  378  kubectl get svc
+  379  kubectl describe svc apache-pod
+  380  kubectl run apache-pod --image=httpd
+  381  kubectl describe svc apache-pod
+  382  clear
+  383  kubectl create deployment httpd-deployment --image=httpd
+  384  kubectl get deployment
+  385  kubectl get pods
+  386  kubectl get deployment -o wide
+  387  kubectl get pods -l  app=httpd-deployment
+  388  kubectl scale deployment httpd-deployment --replicas=5 
+  389  kubectl get deployment -o wide
+  390  kubectl get pods -l  app=httpd-deployment
+  391  kubectl edit deployment httpd-deployment
+  392  kubectl get pods -l  app=httpd-deployment
+  393  kubectl get pods -l  app=httpd-deployment
+  394  kubectl describe deployment httpd-deployment
+  395  kubectl expose deployment httpd-deployment --port=1200 --target-port=80 --type=NodePort
+  396  kubectl get svc
+  397  kubectl get pods -l  app=httpd-deployment -o wide
+  398  kubectl describe svc httpd-deployment
+  399  minikube service httpd-deployment -n demo
+  400  kubectl create ns sample
+  401  kubectl config set-context --current --namespace sample
+  402  kubectl get ns
+  403  kubectl get pods
+  404  minikube docker-env
+  405   eval $(minikube -p minikube docker-env)
+  406  docker images
+  407  kubectl get ns
+  408  mkdir sample
+  409  cd sample
+  410  notepad database.sql
+  411  notepad insertsql.sql
+  412  notepad Dockerfilesql
+  413  docker build -t newmysql:1 -f Dockerfilesql.txt .
+  414  docker images
+  415  kubectl create deployment mysql --image=newmysql:1
+  416  kubectl get deploy
+  417  kubectl get pods
+  418  kubectl logs mysql-78f8fbc4d4-jd97k
+  419  kubectl expose deployment mysql --port=3306 --type=ClusterIP
+  420  kubectl get svc
+  421  kubectl describe svc mysql
+  422  kubectl scale deployment mysql --replicas=2
+  423  kubectl describe svc mysql
+  424  notepad nodedb.js
+  425  notepad Dockerfilenode
+  426  notepad Dockerfilenode
+  427  notepad nodedb.js
+  428  docker build -t newnode:1 -f Dockerfilenode.txt .
+  429  kubectl create deployment node --image=newnode:1
+  430  kubectl get deployments
+  431  kubectl get pods
+  432  kubectl logs node-98dd9cff6-czf4d
+  433  kubectl expose deployment node --port=9000 --type=NodePort
+  434  kubectl get svc
+  435  kubectl describe svc node
+  436  kubectl scale deployment node --replicas=3
+  437  kubectl describe svc node
+  438  minikube service node -n sample
+  439  kubectl describe ns sample
+  440  kubectl get pods
+  441  notepad quotas
+  442  clear
+  443  kubectl api-resources | grep quota
+  444  notepad quotas
+  445  kubectl api-resources | grep deploy
+  446  kubectl api-resources | grep ing
+  447  clear
+  448  cat quotas.txt 
+  449  notepad quotas
+  450  kubectl create -f quotas.txt
+  451  notepad quotas
+  452  kubectl create -f quotas.txt
+  453  kubectl describe ns sample
+  454  kubectl create deployment test --image =httpd
+  455  kubectl create deployment test --image=httpd
+  456  kubectl scale deployment test --replicas=2
+  457  kubectl get deployments
+  458  kubectl describe ns sample
+  459  kubectl get pods
+  460  kubectl get events
+  461  kubectl get pods -n demo
+  462  history
+  463  history > command_history_0207

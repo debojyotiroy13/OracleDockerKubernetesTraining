@@ -1,0 +1,15 @@
+Install Minikube 
+Step 1 https://github.com/kubernetes/minikube/releases
+Step 2 Refer 1.9.2 (version download)
+Step 3  Download minikube-installer.exe
+Step 4  Install the application
+
+Install Kubectl
+Step 5 https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/windows/amd64/kubectl.exe 
+Step 6 
+Step 7 Save it under system32 directory
+
+Step 8 Open CMD as Administrator
+Step 9 minikube start --cpus=2 --memory=3072 --vm-driver=virtualbox
+Step 10 Kubectl cluster-info
+Step 11 minikube dashboard 

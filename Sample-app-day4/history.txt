@@ -1,0 +1,500 @@
+  234  git pull
+  235  git push
+  236  git push
+  237  git push
+  238  git pull
+  239  git push
+  240  git pull
+  241  git push
+  242  cd python/server/
+  243  python3 hrfserver.py 
+  244  clear
+  245  python3 hrfserver.py 
+  246  python3 hrfserver.py 
+  247  python3 hrfserver.py 
+  248  python3 hrfserver.py 
+  249  python3 hrfserver.py 
+  250  python3 hrfserver.py 
+  251  python3 hrfserver.py 
+  252  python3 hrfserver.py 
+  253  python3 hrfserver.py 
+  254  python3 hrfserver.py 
+  255  python3 hrfserver.py 
+  256  python3 hrfserver.py 
+  257  python3 hrfserver.py 
+  258  git pull
+  259  git push
+  260  git push
+  261  git status
+  262  pwd
+  263  git pull
+  264  git push
+  265  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  266  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  267  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  268  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  269  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  270  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  271  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  272  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  273  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  274  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  275  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  276  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  277  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  278  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  279  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  280  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  281  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  282  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  283  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  284  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  285  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  286  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  287  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  288  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  289  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/JobRuns.py
+  290  cd python/server/
+  291  python3 hrfserver.py 
+  292  python3 hrfserver.py 
+  293  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/History.py
+  294  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/History.py
+  295  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/History.py
+  296  /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 /Users/debojroy/Documents/Projects/FAW/hrf-utility/python/server/jobsched/lib/History.py
+  297  git status
+  298  git pull
+  299  git push
+  300  curl -X GET \   http://100.111.48.154:8001/configstoreservice/v1/systemConnections/type/NETSUITE \   -H 'Cache-Control: no-cache' \   -H 'Postman-Token: 256dbad7-6d5c-8936-4ed7-a9ff2cd2c9f6' \   -H 'X-TENANT-ID: fawdev.DEV1'
+  301  git status
+  302  git pull
+  303  git pull
+  304  git status
+  305  git pull
+  306  git pull
+  307  git status
+  308  git pull
+  309  git pull
+  310  cd python/server/
+  311  ./startup.sh 
+  312  cat startup.sh 
+  313  ./startup.sh 
+  314  ./startup.sh 
+  315  git push
+  316  git push
+  317  git fetch
+  318  git checkout b-sorting-hrf
+  319  git checkout fb-sorting-hrf
+  320  ./startup.sh 
+  321  cd python/server/
+  322  python3 hrfserver.py 
+  323  python3 hrfserver.py 
+  324  cd python/server/
+  325  ./startup.sh 
+  326  ./startup.sh 
+  327  ./startup.sh 
+  328  ./startup.sh 
+  329  ./startup.sh 
+  330  ./startup.sh 
+  331  ./startup.sh 
+  332  ./startup.sh 
+  333  ./startup.sh 
+  334  clear
+  335  ./startup.sh 
+  336  ./startup.sh 
+  337  ./startup.sh 
+  338  cd ../..
+  339  ls
+  340  ./start-server.sh
+  341  sh start-server.sh
+  342  ls -lrt
+  343  chmod 777 start-server.sh
+  344  ./start-server.sh 
+  345  ./start-server.sh 
+  346  ls /hrf-home
+  347  ./start-server.sh 
+  348  ./start-server.sh 
+  349  docker run --name hrf-server-rc1  --privileged -d -p 9001:9001 -p 8000:8000 --env http_proxy="http://www-proxy.us.oracle.com:80"   --env https_proxy="http://www-proxy.us.oracle.com:80" -v /hrf-home:/hrf-home hrf-server-rc1
+  350  ls /hrf-home
+  351  pwd
+  352  ./start-server.sh 
+  353  git push
+  354  pwd
+  355  cd docker/python/
+  356  ls
+  357  sh docker-build.sh 
+  358  sh docker-build.sh 
+  359  sh docker-build.sh 
+  360  sh docker-build.sh 
+  361  docker ps
+  362  sh docker-build.sh 
+  363  sh docker-build.sh 
+  364  cd hrf-ui/
+  365  ojet serve
+  366  pwd
+  367  cd docker/python/
+  368  docker build -t hrf-server-rc1 .
+  369  cd /Users/debojroy/Documents/Projects/FAW/ngaa-global-jmc/biapps-global-jmc-jar/build/libs
+  370  java -jar globaljmc.jar 
+  371  git fetch
+  372  git checkout feature/globaljmc
+  373  cd biapps-global-jmc-jar/
+  374  ojet serve
+  375  npm install
+  376  ojet serve
+  377  cd build/libs/
+  378  java -jar globaljmc.war 
+  379  java -jar biapps-opsservice-doc-4.0.0.0.0-SNP_20200616_1.jar 
+  380  java -jar globaljmc.jar 
+  381  java -jar globaljmc.jar 
+  382  java -jar globaljmc.jar 
+  383  git pull origin feature/globaljmc
+  384  git pull origin feature/globaljmc
+  385  java -jar globaljmc.jar 
+  386  docker login
+  387  docker login container-registry.oracle.com
+  388  docker login container-registry.oracle.com
+  389  docker login container-registry.oracle.com
+  390  docker login container-registry.oracle.com
+  391  cd ../../
+  392  pwd
+  393  cd ..
+  394  ls
+  395  ls -lrt
+  396  chmod 777 docker-build.sh
+  397  chmod 777 start-server.sh
+  398  ./docker-build.sh 
+  399  ./docker-build.sh 
+  400  ./docker-build.sh 
+  401  ./docker-build.sh 
+  402  ./start-server.sh 
+  403  ./start-server.sh 
+  404  ./start-server.sh 
+  405  cat start-server.sh 
+  406  docker run --name global-jmc -p 8080:8080
+  407  docker run --name global-jmc  --privileged -d -p 8080:8080
+  408  docker ps
+  409  docker ps -a
+  410  docker rm hrf-utility12
+  411  docker ps -a
+  412  docker rm hrf-utility13
+  413  docker rm hrf-utility11
+  414  docker rm hrf-utility1
+  415  docker rm hrf-utility2
+  416  docker rm hrf-utility3
+  417  docker rm hrf-utility4
+  418  docker rm hrf-utility5
+  419  docker rm hrf-utility6
+  420  docker rm hrf-utility7
+  421  docker rm hrf-utility8
+  422  docker rm hrf-utility9
+  423  docker ps -a
+  424  docker rm foo
+  425  docker rm pg-node-orms
+  426  docker ps -a
+  427  pwd
+  428  docker build -t global-jmc .
+  429  docker ps -a
+  430  docker container
+  431  docker container -a
+  432  docker container ls
+  433  docker run global-jmc
+  434  docker build -t global-jmc .
+  435  docker run global-jmc
+  436  docker build -t global-jmc .
+  437  docker run global-jmc
+  438  docker build -t global-jmc .
+  439  ls /Users/debojroy/Documents/Projects/FAW/ngaa-global-jmc/biapps-global-jmc-jar/build/libs/
+  440  docker build -t global-jmc .
+  441  docker build -t global-jmc .
+  442  docker build -t global-jmc .
+  443  docker build -t global-jmc .
+  444  ./start-server.sh 
+  445  docker run global-jmc
+  446  ./start-server.sh 
+  447  cat start-server.sh 
+  448  docker image -a
+  449  docker image ls
+  450  ./start-server.sh 
+  451  ./docker-build.sh 
+  452  ./docker-build.sh 
+  453  ./docker-build.sh 
+  454  ./docker-build.sh 
+  455  ./docker-server.sh 
+  456  ./docker-build.sh 
+  457  ./docker-server.sh 
+  458  ./docker-build.sh 
+  459  ./docker-server.sh 
+  460  ./docker-build.sh 
+  461  ./docker-start.sh 
+  462  ./docker-build.sh 
+  463  ./docker-start.sh 
+  464  pwd
+  465  git pull
+  466  ls
+  467  ./docker-start.sh
+  468  git pull
+  469  git pull
+  470  git status
+  471  git push
+  472  git push
+  473  git push
+  474  git pull
+  475  git push
+  476  docker ps
+  477  docker exec -it 840ca34fb348  bash
+  478  pwd
+  479  cd biapps-global-jmc-jar/
+  480  ojet serve
+  481  ojet serve
+  482  chmod 777 start-server.sh
+  483  open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
+  484  open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
+  485  open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
+  486  cd ~/Desktop/
+  487  cd debos2/
+  488  ls
+  489  mv run.sh run
+  490  ls -lrt
+  491  chmod 775 run
+  492  ls -lrt
+  493  docker build --help
+  494  ssh -i ~/.ssh/devus1_rsa opc@100.111.50.21
+  495  ssh -i ~/.ssh/devus1_rsa_dev4 opc@100.111.50.21
+  496  ssh -i ~/.ssh/devus1_rsa_dev4 opc@100.111.50.21
+  497  cd ~/.ssh
+  498  ls
+  499  cat id_rsa
+  500  cat id_rsa.pub 
+  501  kube status
+  502  kubectl status
+  503  kubectl
+  504  kubectl version
+  505  minikube start --cpus=2 --memory=3072 --vm-driver=virtualbox
+  506  minicube status
+  507  minikube status
+  508  kubectl api-resources
+  509  kubectl api-resources | grep node
+  510  kubectl api-resources | grep ingress
+  511  kubectl api-resources | grep deploy
+  512  kubectl cluster-info
+  513  kubectl get nodes
+  514  kubectl get nodes -o
+  515  kubectl get nodes -o wide
+  516  kubectl get namespace
+  517  minikube --version
+  518  minikube version
+  519  kubectl version
+  520  minikube dashboard
+  521  minikube dashboard &
+  522  kubectl get namespace
+  523  kubectl get ns
+  524  kubectl describe node minikube
+  525  kubectl get nodes
+  526  kubectl get nodes
+  527  kubectl describe ns kube-system
+  528  kubectl describe ns default
+  529  kubectl describe ns
+  530  kubectl describe nodes
+  531  kubectl get pods
+  532  kubectl get pods -n kubernetes-dashboard
+  533  kubectl get pods -n kube-system
+  534  kubectl get pods --all-namespaces
+  535  kubectl get pods --all-namespaces -o wide
+  536  kubectl get pods --all-namespaces -o wide
+  537  kubectl describe pod etcd-minikube
+  538  kubectl describe pod etcd-minikube -n kube-system
+  539  minikube ssh
+  540  kubectl create ns demo
+  541  kubectl get ns
+  542  kubectl get pods -n demo
+  543  kubectl config view
+  544  kubectl config set-context --current --namespace demo
+  545  kubectl config view
+  546  kubectl run apache-pod --image=httpd
+  547  kube describe demo
+  548  kube describe ns demo
+  549  kubectl describe ns demo
+  550  kubectl get pods
+  551  kubectl get events
+  552  kubectl get pods
+  553  kubectl describe pod apache-pod
+  554  kubectl exec apache-pod env
+  555  kubectl get services -n kube-system
+  556  kubectl get pods -n kube-system
+  557  kubectl get pods -n kube-system -o wide
+  558  kubectl exec -it apache-pod baash
+  559  kubectl exec -it apache-pod bash
+  560  kubectl get pods
+  561  kubectl get services
+  562  kubectl get services -n kube-system
+  563  kubectl get services -n apache-pod
+  564  kubectl get services -n demo
+  565  kubectl get services --all-namespaces
+  566  kubectl describe service kubernetes -n default
+  567  kubectl describe service kube-dns -n kube-system
+  568  kubectl get pods
+  569  kubectl get pods -o wide
+  570  kubectl expose pod apache-pod --port=80 --type=NodePort
+  571  kubectl get pods -o wide
+  572  kubectl get svc -o wide
+  573  kubectl get svc -o wide
+  574  kubectl get pods -o wide
+  575  kubectl get describe svc apache-pod
+  576  kubectl describe svc apache-pod
+  577  minicube ip
+  578  minikube ip
+  579  curl 192.168.99.104:31635
+  580  minikube service apache-pod -n demo
+  581  kubectl get svc -o wide
+  582  minicube ssh
+  583  minikube ssh
+  584  clear
+  585  kubectl run test-pod --image alpine -- sleep 3600
+  586  kubectl get pods
+  587  kubectl get pods
+  588  kubectl get svc --all-namespaces
+  589* kubectl exec -i -t test-pod-check sh
+  590  kubectl run test-pod-check --image alpine
+  591  kubectl get pods -w
+  592  kubectl describe pod test-pod-check
+  593  minikube service apache-pod -n demo
+  594  kubectl delete apache-pod
+  595  kubectl delete svc apache-pod
+  596  kubectl expose pod apache-pod --port=1000 --target-port=80 --type=NodePort 
+  597  kubectl expose pod apache-pod --port=1000 --target-port=80 --type=NodePort 
+  598  kubectl get pods
+  599  kubectl expose pod apache-pod --port=1000 --target-port=80 --type=NodePort 
+  600  kubectl expose pod apache-pod --port=1000 --target-port=80 --type=NodePort 
+  601  kubectl expose pod apache-pod --port=1000 --target-port=80 --type=NodePort
+  602  kubectl describe pod apache-pod
+  603  kubectl describe svc apache-pod
+  604  minikube service apache-pod -n demo
+  605  kubectl delete svc apache-pod
+  606  kubectl expose pod apache-pod --port=1000 --target-port=80 --type=ClusterIP
+  607  kubectl get svc apache-pod
+  608  kubectl describe svc apache-pod
+  609  minikube ssh
+  610  kubectl run --generator=run-pod/v1 test-pod1 --image=httpd
+  611  kubectl run --generator=run-pod/v1 test-pod102 --image=httpd
+  612  kubectl expose pod test-pod102 --port=80 --type=LoadBalancer 
+  613  kube get svc
+  614  kubectl get svc
+  615  curl -i 10.96.126.124
+  616  curl -I http://150.136.20.217
+  617  kubectl create deployment httpd-deployment --image=httpd
+  618  kubectl get deployments
+  619  kubectl get pods
+  620  kubectl get pods -o wide
+  621  kubectl get deployments -o wide
+  622  kubectl get pods -l app=httpd-deployment 
+  623  kubectl scale httpd-deployment --replicas=5
+  624  kubectl scale deployment httpd-deployment --replicas=5
+  625  kubectl get deployments -o wide
+  626  kubectl get pods -l app=httpd-deployment 
+  627  kubectl get pods -l app=httpd-deployment 
+  628  kubectl edit deployment httpd-deployment
+  629  kubectl get pods -l app=httpd-deployment 
+  630  kubectl get pods -l app=httpd-deployment 
+  631  kubectl get pods -l app=httpd-deployment 
+  632  kubectl describe deployment httpd-deployment
+  633  kubectl expose deployment httpd-deployment --port=1200 --target-port=80 --type=NodePort
+  634  kubelet get svc
+  635  kubectl get svc
+  636  kubectl get svc -o wide
+  637  kubectl get pods -o wide
+  638  kubectl describe svc httpd-deployment
+  639  minikube service httpd-deployment -n demo
+  640  kubectl create ns sample
+  641  kubectl config set-context --current --namespace sample
+  642  kubectl get pods
+  643  minikube docker-env
+  644  eval $(minikube -p minikube docker-env)
+  645  docker ps
+  646  docker images
+  647  kubectl get pods
+  648  kubectl get ns
+  649  cd Documents/OracleTrainingProjects/OracleMicroserviceTraining/
+  650  mkdir sample-day4
+  651  cd sample-day4/
+  652  vi databasae.sql
+  653  vi insersql.sql
+  654  mv databasae.sql database.sql
+  655  vi Dockerfile
+  656  docker build -t newsql:1 .
+  657  docker login
+  658  docker build -t newsql:1 .
+  659  vi Dockerfile 
+  660  docker build -t newsql:1 .
+  661  kubectl create deployment mysql --image=newmysql:1
+  662  kubectl get deployments
+  663  kubectl get deployments
+  664  kubectl get pods
+  665  kubectl logs mysql-78f8fbc4d4-xf7bv
+  666  kubectl logs mysql-78f8fbc4d4-xf7bv
+  667  kubectl delete deployments mysql
+  668  kubectl get pods
+  669  kubectl create deployment mysql --image=newsql:1
+  670  kubectl get pods
+  671  kubectl logs mysql-59857487cb-mmm76
+  672  kubectl expose deployment --port=3306 --type=ClusterIP
+  673  kubectl expose deployment mysql --port=3306 --type=ClusterIP
+  674  kubectl get pods
+  675  kubectl get svc
+  676  kubectl get svc -o wide
+  677  kubectl describe  svc mysql
+  678  kubectl scale deployment mysql --replicas=2 
+  679  kubectl describe  svc mysql
+  680  kubectl exect -it test-pod sh -n demo
+  681  kubectl exec -it test-pod sh -n demo
+  682  vi nodedb.js
+  683  vi nodedb.js
+  684  vi Dockerfile2
+  685  docker build -t newnode:1 -f Dockerfile2 .
+  686  kubectl create deployment node --image=newnode:1
+  687  kubectl get deployments
+  688  ls
+  689  vi Dockerfile3
+  690  docker build -t newnode:2 -f Dockerfile3 .
+  691  kubectl create deployment node --image=newnode:2
+  692  kubectl remove deployment node
+  693  kubectl delete deployment node
+  694  kubectl create deployment node --image=newnode:2
+  695  kubectl get deployments
+  696  kubectl get nodes
+  697  kubectl get pods
+  698  kubectl expose deployment node --port=9000 --type=NodePort
+  699  kubectl get svc 
+  700  kubectl describe node
+  701  kubectl scale deployment node --replicas=3
+  702  kubectl describe node
+  703  kubectl get svc 
+  704  kubectl describe node
+  705  kubectl describe svc node
+  706  miniqube service -n sample
+  707  miniqube service node -n sample
+  708  miniqube service node -n sample
+  709  miniqube version
+  710  minikube service node -n sample
+  711  kubectl describe ns
+  712  kubectl get pods
+  713  kubectl get dep
+  714  kubectl get --help
+  715  vi quotas
+  716  kubectl api-resources  | grep quota
+  717  kubectl api-resources  | grep deploy
+  718  kubectl api-resources  | grep ingress
+  719  kubectl api-resources  | grep ing
+  720  kubectl create -f qoutas 
+  721  ls
+  722  kubectl create -f quotas
+  723  kubectl describe ns sample
+  724  kubectl create deployment test --image=httpd
+  725  kubectl scale deployment test --replicas=2
+  726  kubectl describe ns sample
+  727  kubectl get pods
+  728  kubectl get svc
+  729  kubectl get deployments
+  730  kubectl get events
+  731  kubectl get pods -n demo
+  732  pwd
+  733  history > /Users/debojroy/Documents/OracleTrainingProjects/OracleMicroserviceTraining/sample-day4/history.txt

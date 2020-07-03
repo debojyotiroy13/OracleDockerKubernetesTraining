@@ -1,0 +1,51 @@
+    1  ps ax | grep dockerd
+    2  ls /var/lib/docker
+    3  ls /var/lib/docker/image/overlay2
+    4  docker system df 
+    5  docker info
+    6  docker pull httpd
+    7  docker images
+    8  ls /var/lib/docker/image/overlay2
+    9  ls /var/lib/docker/image/overlay2/imagedb
+   10  ls /var/lib/docker/image/overlay2/imagedb/content/sha256
+   11  docker pull httpd
+   12  docker pull oraclelinux:8.1
+   13  docker images
+   14  docker search alpine
+   15  clear
+   16  docker pull alpine
+   17  docker images
+   18  ls /var/lib/docker/image/overlay2/layerdb/sha256/
+   19  docker inspect httpd
+   20  docker images
+   21  docker inspect 38c
+   22  docker inspect alpine
+   23  docker system df
+   24  docker history oraclelinux:8.1
+   25  docker history httpd
+   26  clear
+   27  docker create --name TestApache httpd
+   28  docker images
+   29  docker ps -a
+   30  docker start TestApache
+   31  docker ps -a
+   32  docker top TestApache
+   33  ps ax | grep 7058
+   34  docker inspect TestApache
+   35  docker network ls
+   36  docker inspect bridge
+   37  docker system df
+   38  docker stats
+   39  docker create --name TestOL oraclelinux:8.1
+   40  docker start TestOL
+   41  docker ps -a
+   42  docker logs TestApache
+   43  docker logs TestOL
+   44  docker rm TestOL
+   45  docker create -i -t --name TestOL oraclelinux:8.1
+   46  docker start TestOL
+   47  docker ps -a
+   48  docker top TestOL
+   49  docker stats
+   50  history
+   51  history > /c/Users/dhana/command_history_2906

@@ -1,0 +1,5 @@
+from node
+copy nodedb.js /nodedb.js
+run npm install -y mysql express body-parser
+expose 9000
+cmd node /nodedb.js

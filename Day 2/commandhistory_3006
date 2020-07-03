@@ -1,0 +1,260 @@
+    1  exit
+    2  ps ax | grep dockerd
+    3  ls /var/lib/docker
+    4  ls /var/lib/docker/image/overlay2
+    5  docker system df 
+    6  docker info
+    7  docker pull httpd
+    8  docker images
+    9  ls /var/lib/docker/image/overlay2
+   10  ls /var/lib/docker/image/overlay2/imagedb
+   11  ls /var/lib/docker/image/overlay2/imagedb/content/sha256
+   12  docker pull httpd
+   13  docker pull oraclelinux:8.1
+   14  docker images
+   15  docker search alpine
+   16  clear
+   17  docker pull alpine
+   18  docker images
+   19  ls /var/lib/docker/image/overlay2/layerdb/sha256/
+   20  docker inspect httpd
+   21  docker images
+   22  docker inspect 38c
+   23  docker inspect alpine
+   24  docker system df
+   25  docker history oraclelinux:8.1
+   26  docker history httpd
+   27  clear
+   28  docker create --name TestApache httpd
+   29  docker images
+   30  docker ps -a
+   31  docker start TestApache
+   32  docker ps -a
+   33  docker top TestApache
+   34  ps ax | grep 7058
+   35  docker inspect TestApache
+   36  docker network ls
+   37  docker inspect bridge
+   38  docker system df
+   39  docker stats
+   40  docker create --name TestOL oraclelinux:8.1
+   41  docker start TestOL
+   42  docker ps -a
+   43  docker logs TestApache
+   44  docker logs TestOL
+   45  docker rm TestOL
+   46  docker create -i -t --name TestOL oraclelinux:8.1
+   47  docker start TestOL
+   48  docker ps -a
+   49  docker top TestOL
+   50  docker stats
+   51  history
+   52  history > /c/Users/dhana/command_history_2906
+   53  ps ax | grep dockerd
+   54  docker images
+   55  docker ps -a
+   56  docker stop TestOL TestApache
+   57  docker ps -a
+   58  clear
+   59  docker ps -q
+   60  docker ps -a -q
+   61  docker start $(docker ps -a -q)
+   62  docker ps -a
+   63  docker images -q
+   64  docker inspect TestOL
+   65  docker inspect -f "{{.Name}}
+{{.HostConfig.LogConfig.Type}}
+{{.NetworkSettings.IPAddress}}" TestOL
+   66  docker inspect -f > "{{.Name}}
+> {{.HostConfig.LogConfig.Type}}
+> {{.NetworkSettings.IPAddress}}" TestOL
+   67  docker inspect -f > "{{.Name}}
+> {{.HostConfig.LogConfig.Type}}
+> {{.NetworkSettings.IPAddress}}" $(docker ps -a -q)
+   68  docker inspect -f "{{.Name}}
+{{.HostConfig.LogConfig.Type}}
+{{.NetworkSettings.IPAddress}}" $(docker ps -a -q)
+   69  docker inspect -f "{{.Name}} {{.HostConfig.LogConfig.Type} {{.NetworkSettings.IPAddress}}" $(docker ps -a -q)
+   70  docker inspect -f "{{.Name}} {{.HostConfig.LogConfig.Type}} {{.NetworkSettings.IPAddress}}" $(docker ps -a -q)
+   71  clear
+   72  docker ps -a
+   73  docker exec TestApache cat /etc/resolv.conf
+   74  cat /etc/resolv.conf
+   75  cat /etc/hosts
+   76  docker exec TestApache cat /etc/hosts
+   77  docker exec TestApache bash
+   78  docker exec -i -t  TestApache bash
+   79  docker exec -i -t TestOL bash
+   80  docker ps -a
+   81  docker attach TestOL
+   82  docker ps -a
+   83  docker start TestOL
+   84  docker ps -a
+   85  docker attach --detach-keys="ctrl-p" TestOL
+   86  docker ps -a
+   87  docker pull ubuntu
+   88  docker images
+   89  docker inspect ubuntu
+   90  clear
+   91  docker create -i -t --name TestUbuntu ubuntu
+   92  docker start TestUbuntu
+   93  docker top TestUbuntu
+   94  docker exec TestUbuntu vi
+   95  docker exec -i -t TestUbuntu bash
+   96  docker attach --detach-keys="ctrl-u" TestUbuntu
+   97  docker ps -a
+   98  clear
+   99  docker ps -a
+  100  docker commit TestUbuntu newubuntu
+  101  docker images
+  102  docker history newubuntu
+  103  docker inspect newubuntu
+  104  clear
+  105  docker images
+  106  docker run --rm -i -t --name test newubuntu
+  107  docker run  -i -t --name test newubuntu
+  108  docker ps -a 
+  109  docker rm test
+  110  docker pull scratch
+  111  clear
+  112  mkdir apps
+  113  cd apps
+  114  vi Sample.sh
+  115  ls
+  116  sh Sample.sh
+  117  sh Sample.sh /etc/abbbb
+  118  sh Sample.sh /etc/hosts
+  119  cat Sample.sh 
+  120  vi Dockerfile
+  121  clear
+  122  ls
+  123  cat Dockerfile 
+  124  docker build -t newubuntu:1 -f Dockerfile .
+  125  docker history newubuntu:1
+  126  clear
+  127  docker images
+  128  docker inspect newubuntu:1
+  129  clear
+  130  docker images
+  131  docker run --rm newubuntu:1
+  132  docker inspect newubuntu:1
+  133  docker run --rm newubuntu:1
+  134  clear
+  135  docker run --rm newubuntu:1 /etc/hosts
+  136  docker run --rm newubuntu:1 sh /code/Sample.sh /etc/hosts
+  137  docker run --rm -i -t newubuntu:1 bash
+  138  vi Dockerfile
+  139  clear
+  140  cat Dockerfile 
+  141  docker build -t newubuntu:2 -f Dockerfile .
+  142  docker inspect newubuntu:2
+  143  clear
+  144  docker run --rm newubuntu:2
+  145  docker run --rm newubuntu:2 /etc/hosts
+  146  docker run --rm -i -t newubuntu:2 bash
+  147  docker run --entrypoint=/bin/bash -i -t newubunt:2
+  148  docker run --entrypoint=/bin/bash -i -t newubuntu:2
+  149  docker pull mysql:5.7
+  150  docker images
+  151  docker inspect mysql:5.7
+  152  vi createdb.sql
+  153  ls
+  154  cat createdb.sql 
+  155  docker run -d --name testdb mysql:5.7
+  156  docker ps -a
+  157  docker logs testdb
+  158  docker volume ls
+  159  docker rm testdb
+  160  docker volume rm fd7f631159f3e78fb8a909126bc2e2493e0d91675be75aead7909171161d7fc8
+  161  docker volume ls
+  162  ls
+  163  docker run --rm -i -t mysql:5.7 bash
+  164  ls
+  165  vi Dockerfile1
+  166  ls
+  167  docker build -t newmysql -f Dockerfile1 .
+  168  docker inspect newmysql
+  169  clear
+  170  docker volume ls
+  171  docker run -d --name testdb newmysql
+  172  docker ps -a 
+  173  docker volume ls
+  174  docker inspect testdb
+  175  docker volume ls
+  176  docker inspect c45ad51a357dcace5a6c68dd85b98949d2c44888727b3e10051bfc378e697af7
+  177  docker system df
+  178  docker top testdb
+  179  docker logs testdb
+  180  clear
+  181  docker exec -i -t testdb bash
+  182  docker stats
+  183  docker inspect httpd
+  184  clear
+  185  netstat
+  186  clear
+  187  iptables -t nat -L
+  188  clear
+  189  docker run -d --name webserver -p 7000:80 httpd
+  190  docker port webserver
+  191  docker inspect -f "{{.NetworkSettings.IPAddress}}" webserver
+  192  iptables -t nat -L
+  193  docker inspect webserver
+  194  curl localhost:7000
+  195  vi data.json
+  196  vi node.js
+  197  ls
+  198  vi Dockerfile2
+  199  clear
+  200  ls
+  201  docker build -t newnode -f Dockerfile2 .
+  202  docker inspect newnode
+  203  clear
+  204  ls
+  205  cat Dockerfile2
+  206  docker images
+  207  docker run -d --name testnode -p 7001:9000 newnode
+  208  docker port testnode
+  209  iptables -t nat -L
+  210  curl localhost:7001/listUsers
+  211  curl localhost:7001
+  212  clear
+  213  docker stats
+  214  cd /sys/fs/cgroup
+  215  ls
+  216  cd cpu
+  217  ls
+  218  cd docker
+  219  cat cpu.shares
+  220  cd 85f1cb803f0d303e97e2ed4bf98237bfd1267660f32098e7387f2b57058c3cc1/
+  221  cat cpu.shares
+  222  PS1=#
+  223  pwd
+  224  docker ps
+  225  pwd
+  226  docker update --cpu-shares=5 --memory=100M --memory-swap=200M webserver
+  227  docker stats
+  228  pwd
+  229  cat cpu.shares
+  230  cd ..
+  231  cd ..
+  232  pwd
+  233  cd ..
+  234  pwd
+  235  cd memory/docker/85f1cb803f0d303e97e2ed4bf98237bfd1267660f32098e7387f2b57058c3cc1/
+  236  pwd
+  237  ls
+  238  cat memory.limit_in_bytes 
+  239  cat memory.memsw.limit_in_bytes 
+  240  docker pull nginx
+  241  cd ~/apps
+  242  pwd
+  243  docker images
+  244  docker login iad.ocir.io
+  245  docker tag newubuntu iad.ocir.io/ocuocictrng22/newubuntu01
+  246  docker push iad.ocir.io/ocuocictrng22/newubuntu01
+  247  docker images
+  248  docker login
+  249  docker tag newubuntu dnarasim248/newubuntu
+  250  docker push dnarasim248/newubuntu
+  251  history
+  252  history > /c/Users/dhana/commandhistory_3006

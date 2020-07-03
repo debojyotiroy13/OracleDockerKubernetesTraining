@@ -1,0 +1,35 @@
+authtoken - #8nzd[G]_oWl3SM#bp4.
+username - ocuocictrng22/lab.user01
+reponame - iad.ocir.io/ocuocictrng22/testrepo/new-wercker-nginx
+
+
+SA.yaml
+========
+
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+ name: oke-admin
+ namespace: demo01
+---
+apiVersion: rbac.authorization.k8s.io/v1beta1
+kind: ClusterRoleBinding
+metadata:
+  name: oke-admin
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+  - kind: ServiceAccount
+    name: oke-admin
+    namespace: demo01
+
+
+
+
+
+KUBENETES_TOKEN
+eyJhbGciOiJSUzI1NiIsImtpZCI6IiJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJkZW1vMDEiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlY3JldC5uYW1lIjoib2tlLWFkbWluLXRva2VuLTg2ZHpiIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQubmFtZSI6Im9rZS1hZG1pbiIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjEzMjZiNTM1LWJjN2ItMTFlYS1hZGE5LTBhNTgwYWVkYjM3MyIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDpkZW1vMDE6b2tlLWFkbWluIn0.tK2dy8DUMNt20N4GDbdEnT7YmowUY9czSm9hiON0pUJV8jTcDNCPr2gj8Jipbh4B80cccSosceDVjXxitkQHrPw0hPu8CX38WXCExLPPdN45uRri1pmm_reKmVRe7le2OG577jaxksczmt3ZeyI4HTllwTpWerKqXJY24WnrVf4Ul-M9vj_PsIFbpT4jjUl86Yic3DA_VII88qASiWuh3ILTRdLxP-sXprTbGeLIgb3xfB0Ix_kpX5Nj42kLG1XFUe4QfzqhhSqBBLSXtIA3i23gQJ_T1ycjEzUc-N3sm8l6fgY_j_XooJxSjrq_fZHZsyKtQ3TTFNFbj6-aJ6sd1A
+KUBERNETES_MASTER
+ https://130.35.146.18:6443

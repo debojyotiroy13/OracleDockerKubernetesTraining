@@ -2,11 +2,7 @@
 Docker Kubernetes with OCI and Wercker training
 
 *********************
-- ARCHITECTURE PATTERNS -0.5 DAY
-- CONTAINERS AND DOCKERS – 1.5 DAYS
-- OKE AND KUBERNETES – 1.5 DAYS
-- CONTAINER PIPELINES – 1.5 DAYS
-
+# Overview
 *********************
 - Microservice Architecture (MSA) – Context and Architecture
 - DEVOPS /Agenda , Containers
@@ -19,6 +15,10 @@ Docker Kubernetes with OCI and Wercker training
 - Automate Code – Deployment (Automation of Devops) 
 - OCP (Wercker)
 - DEPLOY – Using OCI Interface
+
+*********************
+# Day Wise Topics
+*********************
 
 ## DAY 1
 - DESIGN PATTERNS MSA

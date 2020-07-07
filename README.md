@@ -1,5 +1,10 @@
 # OracleDockerKubernetesTraining
-Docker Kubernetes with OCI and Wercker training
+* Awareness, Exposure and Features to Micro-Services and integrating Devops.
+* Define, Design Manage Container Deployment Architecture through Docker
+* Implement Services through Containers through Docker
+* Orchestrate Containers through Cluster implementing Kubernetes
+* Experience OKE as service, Explore Features of OCI on Containers
+* Implement Native Containers through Oracle Container Pipelines
 
 *********************
 # Overview
